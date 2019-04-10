@@ -1,0 +1,6 @@
+framework module Pods_TinderUI_Sampler {
+  umbrella header "Pods-TinderUI_Sampler-umbrella.h"
+
+  export *
+  module * { export * }
+}
