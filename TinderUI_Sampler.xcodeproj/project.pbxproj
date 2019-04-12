@@ -13,6 +13,12 @@
 		DDC6883D225DF69A0034B389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC6883B225DF69A0034B389 /* Main.storyboard */; };
 		DDC6883F225DF69C0034B389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC6883E225DF69C0034B389 /* Assets.xcassets */; };
 		DDC68842225DF69C0034B389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC68840225DF69C0034B389 /* LaunchScreen.storyboard */; };
+		DDC6884C225E4A820034B389 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC6884B225E4A820034B389 /* Helper.swift */; };
+		DDC6884F225E50B80034B389 /* IMG_3237 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DDC6884D225E50B80034B389 /* IMG_3237 2.JPG */; };
+		DDC68850225E50B80034B389 /* IMG_3238.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DDC6884E225E50B80034B389 /* IMG_3238.JPG */; };
+		DDC68854225E50CD0034B389 /* IMG_3213 4.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC68851225E50CB0034B389 /* IMG_3213 4.png */; };
+		DDC68855225E50CD0034B389 /* IMG_3228 3.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC68852225E50CC0034B389 /* IMG_3228 3.png */; };
+		DDC68856225E50CD0034B389 /* IMG_3209 5.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC68853225E50CD0034B389 /* IMG_3209 5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		DDC6883E225DF69C0034B389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDC68841225DF69C0034B389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDC68843225DF69C0034B389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC6884B225E4A820034B389 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		DDC6884D225E50B80034B389 /* IMG_3237 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_3237 2.JPG"; sourceTree = "<group>"; };
+		DDC6884E225E50B80034B389 /* IMG_3238.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3238.JPG; sourceTree = "<group>"; };
+		DDC68851225E50CB0034B389 /* IMG_3213 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_3213 4.png"; sourceTree = "<group>"; };
+		DDC68852225E50CC0034B389 /* IMG_3228 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_3228 3.png"; sourceTree = "<group>"; };
+		DDC68853225E50CD0034B389 /* IMG_3209 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_3209 5.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +66,6 @@
 				298A5FF924FF4A2960E0826D /* Pods-TinderUI_Sampler.debug.xcconfig */,
 				1C184BC0A39082B484347908 /* Pods-TinderUI_Sampler.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -83,8 +94,14 @@
 				DDC68839225DF69A0034B389 /* ViewController.swift */,
 				DDC6883B225DF69A0034B389 /* Main.storyboard */,
 				DDC6883E225DF69C0034B389 /* Assets.xcassets */,
+				DDC6884D225E50B80034B389 /* IMG_3237 2.JPG */,
+				DDC6884E225E50B80034B389 /* IMG_3238.JPG */,
+				DDC68853225E50CD0034B389 /* IMG_3209 5.png */,
+				DDC68851225E50CB0034B389 /* IMG_3213 4.png */,
+				DDC68852225E50CC0034B389 /* IMG_3228 3.png */,
 				DDC68840225DF69C0034B389 /* LaunchScreen.storyboard */,
 				DDC68843225DF69C0034B389 /* Info.plist */,
+				DDC6884B225E4A820034B389 /* Helper.swift */,
 			);
 			path = TinderUI_Sampler;
 			sourceTree = "<group>";
@@ -149,8 +166,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC68856225E50CD0034B389 /* IMG_3209 5.png in Resources */,
 				DDC68842225DF69C0034B389 /* LaunchScreen.storyboard in Resources */,
+				DDC68855225E50CD0034B389 /* IMG_3228 3.png in Resources */,
 				DDC6883F225DF69C0034B389 /* Assets.xcassets in Resources */,
+				DDC68854225E50CD0034B389 /* IMG_3213 4.png in Resources */,
+				DDC68850225E50B80034B389 /* IMG_3238.JPG in Resources */,
+				DDC6884F225E50B80034B389 /* IMG_3237 2.JPG in Resources */,
 				DDC6883D225DF69A0034B389 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,13 +211,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TinderUI_Sampler/Pods-TinderUI_Sampler-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework",
+				"${BUILT_PRODUCTS_DIR}/Poi/Poi.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nuke.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Poi.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -211,6 +237,7 @@
 			files = (
 				DDC6883A225DF69A0034B389 /* ViewController.swift in Sources */,
 				DDC68838225DF69A0034B389 /* AppDelegate.swift in Sources */,
+				DDC6884C225E4A820034B389 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

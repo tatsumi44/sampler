@@ -1,16 +1,24 @@
 PODS:
+  - Alamofire (4.8.2)
   - Nuke (7.5.2)
+  - Poi (3.1.0)
 
 DEPENDENCIES:
+  - Alamofire
   - Nuke (~> 7.0)
+  - Poi
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
     - Nuke
+    - Poi
 
 SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   Nuke: 0350d346a688426e8f2331253ef28dc2fc4f6178
+  Poi: 153f9c751449573ad484dc68b6e4c374cc33d409
 
-PODFILE CHECKSUM: 10decb80a22a0e7e8f6f8aae4bc58f2e49e6983f
+PODFILE CHECKSUM: 5ca207373110a69c330b8b943c90b509e1bb1434
 
 COCOAPODS: 1.6.1
